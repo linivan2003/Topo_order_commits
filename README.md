@@ -1,9 +1,7 @@
 ## Topological Ordered Commits
 This is a python script that prints out commits from every single branch in topological order
 ## Example
-In a repository:
-```
-git log --graph --oneline
+In a repository: if this is the commit tree
 ```
 *   40b13cf (HEAD -> master) Merge branch 'branch-2'
 |\
