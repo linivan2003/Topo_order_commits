@@ -5,7 +5,6 @@ In a repository:
 ```
 git log --graph --oneline
 ```
-```
 *   40b13cf (HEAD -> master) Merge branch 'branch-2'
 |\
 | * c7b574d (branch-2) master c12
@@ -15,7 +14,7 @@ git log --graph --oneline
 * b1d3443 master c2
 * 6eddf8f m c1
 ```
-In a Repository, topo_order_commits.py will return
+topo_order_commits.py will return
 ```
 6eddf8f7c6a3e5993fffe85195dd383a2959be16
 b1d3443886413fa19bd79bde0c42f6339c231883
@@ -29,6 +28,6 @@ c7b574ddeaa58511be1fb7fe46676262d9e6fe73
 topo_order_commits.py must be inside the repository you would like to find information on.
 ```
 Python3 topo_order_commits.py
-~~~
+```
 
 
